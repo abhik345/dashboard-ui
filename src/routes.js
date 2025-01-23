@@ -6,9 +6,16 @@ const routes = [
     name: "Main Dashboard",
     layout: "/admin",
     path: "default",
-    icon: MdHome, // ✅ Pass the component reference
-    component: MainDashboard, // ✅ Pass the component reference
+    icon: MdHome, 
+    component: MainDashboard, 
   },
+  // {
+  //   name: "Main Dashboard",
+  //   layout: "/admin",
+  //   path: "default",
+  //   icon: MdHome,
+  //   component: MainDashboard,
+  // }
 ];
 
 export default routes;

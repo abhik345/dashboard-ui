@@ -52,7 +52,7 @@ export default function Admin(props) {
     <div className="flex h-full w-full">
       <Sidebar open={open} onClose={() => setOpen(false)} />
       {/* Navbar & Main Content */}
-      <div className="h-full w-full bg-[#F4F7FE]">
+      <div className="h-full w-full bg-lightPrimary">
         {/* Main Content */}
         <main className="mx-[12px] h-full flex-none transition-all md:pr-2 xl:ml-[313px]">
           {/* Routes */}
