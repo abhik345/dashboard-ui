@@ -2,6 +2,8 @@ import { IoMdHome } from "react-icons/io";
 import { IoDocuments } from "react-icons/io5";
 import { MdBarChart, MdDashboard } from "react-icons/md";
 import Widget from "../../../components/widget/Widget";
+import TotalSpent from "./components/TotalSpent";
+import WeeklyRevenue from "./components/WeeklyRevenue";
 
 const Dashboard = () => {
   return (
@@ -38,8 +40,12 @@ const Dashboard = () => {
           subtitle={"$2433"}
         />
       </div>
+      <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2">
+        <TotalSpent />
+        <WeeklyRevenue />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;

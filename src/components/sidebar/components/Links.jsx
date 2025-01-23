@@ -16,8 +16,8 @@ export function SidebarLinks({ routes }) {
               <span
                 className={`flex items-center ${
                   activeRoute(route.path)
-                    ? "font-bold text-brand-500"
-                    : "font-medium text-gray-600"
+                    ? "font-bold text-bluePrimary"
+                    : "font-medium  text-gray-600"
                 }`}
               >
                 {route.icon ? <route.icon className="h-6 w-6" /> : <DashIcon />}
@@ -25,7 +25,7 @@ export function SidebarLinks({ routes }) {
               <p
                 className={`leading-1 ml-4 flex ${
                   activeRoute(route.path)
-                    ? "font-bold text-navy-700"
+                    ? "font-bold text-blue-950"
                     : "font-medium text-gray-600"
                 }`}
               >
@@ -33,7 +33,7 @@ export function SidebarLinks({ routes }) {
               </p>
             </li>
             {activeRoute(route.path) && (
-              <div className="absolute right-0 top-px h-9 w-1 rounded-lg bg-brand-500" />
+              <div className="absolute right-0 top-px h-9 w-1 rounded-lg bg-bluePrimary" />
             )}
           </div>
         </Link>
