@@ -228,38 +228,40 @@ input:checked.defaultCheckbox::before {
   }
 
   @media (min-width: 1320px) {
-    .2xl\:block {
-      display: block
+    [class~="2xl:block"] {
+        display: block;
     }
-  }
+}
 
-  @media (max-width: 1320px) {
-    .2xl-max\:block {
-      display: block
+@media (max-width: 1320px) {
+    [class~="2xl-max:block"] {
+        display: block;
     }
-  }
+}
 
-  @media (min-width: 1600px) {
-    .3xl\:block {
-      display: block
+@media (min-width: 1600px) {
+    [class~="3xl:block"] {
+        display: block;
     }
-  }
+}
 
-  @media (max-width: 1600px) {
-    .3xl-max\:block {
-      display: block
+@media (max-width: 1600px) {
+    [class~="3xl-max:block"] {
+        display: block;
     }
-  }
+}
 
-  @media (min-width: 1850px) {
-    .4xl\:block {
-      display: block
+@media (min-width: 1850px) {
+    [class~="4xl:block"] {
+        display: block;
     }
-  }
+}
 
-  @media (max-width: 1850px) {
-    .4xl-max\:block {
-      display: block
+@media (max-width: 1850px) {
+    [class~="4xl-max:block"] {
+        display: block;
     }
-  }
+}
+
+
 }
